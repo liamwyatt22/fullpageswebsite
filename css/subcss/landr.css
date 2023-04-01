@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.right {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+
+
+
+/*2nd*/
+
+.container-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left2 {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.right2 {
+  width: 50%;
+}
+
+.left2 img {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
