@@ -84,6 +84,50 @@
 
 </div>
 
+  <script>
+  var check1 = document.getElementById('check1');
+  var check2 = document.getElementById('check2');
+  var check3 = document.getElementById('check3');
+  var check4 = document.getElementById('check4');
+  var pic = document.querySelectorAll('.pic');
+  
+  check1.addEventListener('change', function(){
+    for (var i = 0; i < pic.length; i++){
+      pic[i].style.display = 'block';
+    }
+  });
+  
+  check2.addEventListener('change', function(){
+    for (var i = 0; i < pic.length; i++){
+      if (pic[i].classList.contains('family')){
+        pic[i].style.display = 'block';
+      } else {
+        pic[i].style.display = 'none';
+      }
+    }
+  });
+  
+  check3.addEventListener('change', function(){
+    for (var i = 0; i < pic.length; i++){
+      if (pic[i].classList.contains('ft')){
+        pic[i].style.display = 'block';
+      } else {
+        pic[i].style.display = 'none';
+      }
+    }
+  });
+  
+  check4.addEventListener('change', function(){
+    for (var i = 0; i < pic.length; i++){
+      if (pic[i].classList.contains('travel')){
+        pic[i].style.display = 'block';
+      } else {
+        pic[i].style.display = 'none';
+      }
+    }
+  });
+</script>
+
   
 </body>
 </html>
