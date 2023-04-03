@@ -176,3 +176,19 @@ label:hover{
   position: absolute;
   transition: 0s;
 }
+
+/* default styles */
+.pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+/* styles for screens smaller than 600px */
+@media (max-width: 600px) {
+  .pic img {
+    max-width: 100%;
+    height: auto;
+  }
+}
