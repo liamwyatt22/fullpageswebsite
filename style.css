@@ -217,7 +217,6 @@ header.sticky{
   color: var(--second-color);
 }
 .thum:hover{
-  filter: brightness(100%) hue-rotate(45deg);
   transform: scale(1.04);
 }
 .destination-content{
