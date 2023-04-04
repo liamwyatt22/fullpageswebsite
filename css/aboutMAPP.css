@@ -1,0 +1,48 @@
+/* Mobile styles (up to 600 pixels wide) */
+@media only screen and (max-width: 600px) {
+  /* Adjust font sizes */
+  body {
+    font-size: 16px;
+  }
+
+  /* Center the logo */
+  .logo {
+    display: block;
+    text-align: center;
+  }
+
+  /* Hide the menu icon */
+  #menu-icon {
+    display: none;
+  }
+
+  /* Change the layout of the containers */
+  .container {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  /* Adjust margins and paddings */
+  .container:not(:first-of-type) {
+    margin-top: 32px;
+  }
+
+  .left {
+    margin-bottom: 16px;
+  }
+
+  /* Make images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Adjust the footer */
+  .footer {
+    padding: 16px;
+  }
+}
